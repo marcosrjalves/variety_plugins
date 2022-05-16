@@ -26,7 +26,7 @@ class BibleSource(IQuoteSource):
         # URL da API da Bíblia
         token = '###'
         # Leia o README para conseguir o token da API
-        url = 'https://bibleapi.co/api/verses/nvi/random'
+        url = 'https://www.abibliadigital.com.br/api/verses/acf/random'
 
         # Recebe o conteudo da request e "JSONEIA"
         r = requests.get(url, headers = {"Authorization":"Bearer " + token})
